@@ -26,9 +26,9 @@ stages:
             backendType: 'azurerm'
             backendServiceArm: 'ATS_LABS(a5d9cb3e-8f8a-43d7-8277-56dfbca4bc8b)'
             ensureBackend: true
-            backendAzureRmResourceGroupName: 'terraform-storage-rg1'
+            backendAzureRmResourceGroupName: 'terraform-storage-rg118'
             backendAzureRmResourceGroupLocation: 'East US'
-            backendAzureRmStorageAccountName: 'terraformstate1'
+            backendAzureRmStorageAccountName: 'terraformstate1ats'
             backendAzureRmContainerName: 'tfstatefiles'
             backendAzureRmKey: 'aks.tfstate'
         - task: TerraformCLI@0
